@@ -62,22 +62,22 @@ function exampleOf(){
     }
     </script>
   </head>
-  <body onload="setDefault()" class="bg-success">
+  <body onload="setDefault()" class="bg-primary">
     <div class="container-fluid">
       <div class="row">
-        <div class="col text-center text-white bg-success my-3">
+        <div class="col text-center text-white my-3">
           <h1>Markdown Previewer</h1>
       </div>
     </div>
       <div class="row">
-        <div class="col-6 bg-primary d-flex flex-column">
-          <h2 class="text-white text-center my-3">Editor</h2>
+        <div class="col-6 bg-info-subtle d-flex flex-column">
+          <h2 class="text-dark text-center my-3">Editor</h2>
           <div class="form-groups flex-grow-1 d-flex flex-column">
           <textarea id="editor" onkeyup="updatePreview()" class="form-control flex-grow-1 my-3"></textarea>
         </div>
         </div>
-        <div class="col-6 bg-danger">
-        <h2 class="text-white text-center my-3">Preview</h2>
+        <div class="col-6 bg-success-subtle">
+        <h2 class="text-dark text-center my-3">Preview</h2>
         <div id="preview"></div>
       </div>
       </div>
